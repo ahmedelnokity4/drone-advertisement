@@ -1,0 +1,117 @@
+@media (max-width: 992px) {
+  .container,
+  .container-navbar,
+  .container-features,
+  .container-reviews,
+  .container-products,
+  .container-footer,
+  .hero-section {
+    width: 90%;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image-card,
+  .hero-content-right {
+    width: 100%;
+  }
+
+  .tags-groups,
+  .price-row {
+    justify-content: center;
+  }
+
+  .review-wrapper {
+    flex-direction: column;
+  }
+
+  .summary-box,
+  .reviews-list {
+    width: 100%;
+  }
+
+  .feature-card {
+    flex: 1 1 45%;
+  }
+
+  .product-card {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 100px;
+  }
+
+  .container-navbar {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .left-part {
+    margin-bottom: 5px;
+  }
+
+  .right-part {
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .right-part a {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+
+  .product-title {
+    font-size: 28px;
+  }
+
+  .feature-card {
+    flex: 1 1 100%;
+  }
+
+  .product-card {
+    flex: 1 1 100%;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-col,
+  .brand-col {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .review-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .review-tags {
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .current-price {
+    font-size: 26px;
+  }
+
+  .total-score {
+    font-size: 42px;
+  }
+}
